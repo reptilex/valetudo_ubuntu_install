@@ -1,0 +1,5 @@
+INFO:miio.vacuum_cli:Debug mode active
+Usage: mirobo discover [OPTIONS]
+Try "mirobo discover --help" for help.
+
+Error: no such option: -o
