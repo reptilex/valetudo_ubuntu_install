@@ -24,7 +24,7 @@ python3-pip
 python3-venv
 python3-setuptools #(needed due to errors)
 ```
-* created venv environment: 
+* created venv environment, no pip allowed in venv in ubuntu?? and therefore using system packages: 
 ```sh
 python3 -m venv venv --without-pip --system-site-packages
 ```
@@ -36,8 +36,8 @@ before activating I setup wifi with the roborock
     * press 8 sec charge button
     * while still pressing charge press reset
     * keep pressing charge button for 8 sec
-    * voice: resetting to factory settings
-* setting up wifi
+    * until voice: resetting to factory settings
+* setting up wifi on ubuntu 20.04
 ```sh
     sudo ip link set wlp3s0 down
     sudo iwconfig wlp3s0 essid "roborock-vacuum-s5_miap57B2"
@@ -58,7 +58,7 @@ before activating I setup wifi with the roborock
     pip3 install python-wheel
     pip3 install python-miio
 ```
-Using mirobo was a problem at first it was not in the path, had to call it with complete path out of: /home/reptilex/.local/bin/mirobo
+Using mirobo was a problem at first it was not in the path, had to call it with complete path out of: /home/reptilex/.local/bin/mirobo worked after restart though
 
 If the robot goes to sleep, wifi has to be setup again
 
@@ -81,5 +81,5 @@ If the robot goes to sleep, wifi has to be setup again
 * find roborock with your router
 * put roborock back where you want him to always charge
 
-# DONE
+## DONE
 
