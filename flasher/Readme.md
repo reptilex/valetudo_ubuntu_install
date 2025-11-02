@@ -87,6 +87,7 @@ If the robot goes to sleep, wifi has to be setup again
 * ssh with one of the roborock rsa keys
 * change data under /mnt/data/miio to match /mnt/data/miio_rep
 * change data under /mnt/data/wlan to match /mnt/data/wlan
+* run /opt/roborock/wlan/wlan_start.sh
   
 ## DONE
 
